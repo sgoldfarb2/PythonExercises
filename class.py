@@ -59,4 +59,3 @@
 #if syntax for python is:
 #if age >= 21:
 #print('You get free beer')
-
