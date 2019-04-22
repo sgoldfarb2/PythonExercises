@@ -99,6 +99,19 @@ word_histogram()
 
 #BONUS!!
 #given a tally from #3 or #4, print the top three words or letters
-def histogram_tally(our_dict):
-  for key, value in our_dict.items():
-    pass
+# def histogram_tally(our_dict):
+#   our_numbers = []
+#   greatest_value = []
+#   for key in our_dict:
+#     our_numbers.append(our_dict[key])
+#   print(our_numbers)
+#   for i in our_numbers:
+#     if(our_numbers[i] < our_numbers[i+1]):
+#       greatest_value.append(our_numbers[i+1])
+#   print(greatest_value)
+#   for key, value in our_dict.items():
+#     if value == search_value:
+#       print(key)
+
+# histogram_tally(dict_of_words)
+#ARG NOT WORKING
