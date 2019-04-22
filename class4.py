@@ -148,3 +148,23 @@
 #   raise Exception('this is a custom error because x should not be greater than 5')
 
   #exceptions will go back to a file and log the exceptions, so you can go back later and fix things
+
+
+
+#Pickling to save your information into a file
+#to save the data
+# import pickle
+
+# my_dictionary = {'name' : 'sabrina'}
+
+# with open('my_dictionary.pickle', 'wb') as fh:
+#   pickle.dump(my_dictionary, fh)
+
+#to open the data
+# import pickle
+
+# with open('my_dictionary.pickle', 'rb') as fh:
+#   my_dictionary = pickle.load(fh)
+#   print(my_dictionary)
+
+# print(my_dictionary['name'])
