@@ -7,9 +7,12 @@ class Person:
      self.phone = phone
      self.friends = []
      self.greeting_count = 0
+     self.people_greeted = []
 
   def greet(self, other_person):
     self.greeting_count = self.greeting_count + 1
+    if other_person not in self.people_greeted:
+     self.people_greeted.append(other_person)
     print(self.greeting_count)
     print('Hello {}, I am {}!'.format(other_person.name, self.name))
 
@@ -27,6 +30,9 @@ class Person:
   def __str__(self):
     return f'Person: {self.name} {self.email} {self.phone}'
 
+  def num_unique_people_greeted(self):
+    print(len(self.people_greeted))
+
 
 
 #1.1
@@ -43,6 +49,11 @@ print(f'Jordan\'s number is {jordan.phone} and Jordan\s email is {jordan.email}'
 print(f'Sonny\'s number is {jordan.phone} and Sonny\s email is {jordan.email}')
 
 #still need to do the bonus
+
+jordan.greet(sonny)
+jordan.greet(sonny)
+
+jordan.num_unique_people_greeted()
 
 
 #2
