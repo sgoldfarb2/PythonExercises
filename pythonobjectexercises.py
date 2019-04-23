@@ -42,7 +42,7 @@ print(f'Jordan\'s number is {jordan.phone} and Jordan\s email is {jordan.email}'
 #1.6
 print(f'Sonny\'s number is {jordan.phone} and Sonny\s email is {jordan.email}')
 
-jordan.__str__()
+#still need to do the bonus
 
 
 #2
