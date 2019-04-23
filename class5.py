@@ -135,3 +135,40 @@
 #   print(vehicle.display_info())
 
 
+#Inheritance
+# class Animal:
+#   def __init__(self, name):
+#     self.name = name
+
+# class Dog(Animal):
+#   def woof(self):
+#     print(f'{self.name} says Woof!')
+
+# puppy = Dog('Winnie')
+# puppy.woof()
+
+#override
+#  class Parent(object):
+#    def override(self):
+#      print("PARENT override()")
+# class Child(Parent):
+#   def override(self):
+#     print("CHILD override()")
+# dad = Parent()
+# son = Child()
+# dad.override()
+# son.override()
+
+#super
+# class Parent(object):
+#   def altered(self):
+#     print("PARENT altered()")
+# class Child(Parent):
+#   def altered(self):
+#     print("CHILD, BEFORE PARENT altered()")
+#     super(Child, self).altered()
+#     print("CHILD, AFTER PARENT altered()")
+# dad = Parent()
+# son = Child()
+#super is a function and you're going to give it the parameters of the child and then .altered() which calls the altered function in the base class
+#if you want to call the function in the base class, you have to use altered
