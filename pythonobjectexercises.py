@@ -29,6 +29,7 @@ class Person:
 
   def __str__(self):
     return f'Person: {self.name} {self.email} {self.phone}'
+    ##when you use this you can just say print(jordan) to print the object jordan, and that will print your jordan object in this format
 
   def num_unique_people_greeted(self):
     print(len(self.people_greeted))
@@ -54,6 +55,7 @@ jordan.greet(sonny)
 jordan.greet(sonny)
 
 jordan.num_unique_people_greeted()
+print(jordan) #this is going to print from our self method in the format that we give our self method
 
 
 #2
